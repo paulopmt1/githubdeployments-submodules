@@ -39,9 +39,6 @@ jobs:
     - name: Install Node dependencies
       run: npm install
 
-    - name: Lint code
-      run: npm run lint
-
     - name: Remove files listed on .deployignore
       run: |
         cat .deployignore | grep -v '^#' | xargs rm -rf
