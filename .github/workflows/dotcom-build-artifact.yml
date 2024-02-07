@@ -63,3 +63,7 @@ jobs:
           !phpcs.xml.dist 
           !node_modules 
           !yarn.lock
+          !output.log
+          !docker_tag
+          !Dockerfile-php-build
+          !DOCKER_ENV
