@@ -1,0 +1,6 @@
+[submodule "wp-content/themes/twentytwentyfour"]
+	path = wp-content/themes/twentytwentyfour
+	url = https://github.com/WordPress/twentytwentyfour.git
+[submodule "wp-content/mu-plugins/gutenberg"]
+	path = wp-content/mu-plugins/gutenberg
+	url = git@github.com:WordPress/gutenberg.git

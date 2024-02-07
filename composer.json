@@ -1,0 +1,23 @@
+{
+  "name": "wordpress/my-project",
+  "description": "A basic composer.json for WordPress development with PHPUnit and extra tools",
+  "require-dev": {
+      "phpunit/phpunit": "^10.0",
+      "wp-coding-standards/wpcs": "^3.0"
+  },
+  "require": {
+      "php": ">=7.4",
+      "squizlabs/php_codesniffer": "^3.3.1"
+  },
+  "scripts": {
+      "lint": [
+          "phpcs"
+      ]
+  },
+  "config": {
+      "bin-dir": "vendor/bin/",
+      "allow-plugins": {
+        "dealerdirect/phpcodesniffer-composer-installer": true
+      }
+  }
+}

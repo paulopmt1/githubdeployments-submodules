@@ -1,0 +1,11 @@
+{
+    "name": "wordpress-theme-project",
+    "version": "1.0.0",
+    "description": "A simple package.json for WordPress theme development with Gulp CLI",
+    "scripts": {
+      "start": "gulp"
+    },
+    "devDependencies": {
+      "gulp-cli": "^2.3.0"
+    }
+  }
